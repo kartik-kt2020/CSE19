@@ -5,6 +5,6 @@ HELLO WORLD </br>
 AUTHOR - KARTIK KUMAR
   </head>
   <body bgcolor="red">
-    <h1> IDK WHATS THIS SHIT</h1>
+    <h1> STUDENT AT ABES EC</h1>
   </body>
 </html>
