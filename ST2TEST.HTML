@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="navbar">
+       <CENTER> <h1>Nav Bar</h1> </CENTER>
+        <!-- Navigation links would go here -->
+    </header>
+
+    <main class="content-area">
+        <div class="product-section">
+           <CENTER> <h2>Product</h2> </CENTER>
+            <!-- Product details/image go here -->
+        </div>
+
+       <CENTER> <div class="action-area">
+        <button class="add-to-cart-button">Button</button></CENTER>
+            <span class="cart-label">add to cart</span>
+        </div></CENTER>
+    </main>
+    <style>{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #a4721c;
+    padding: 10px;
+    border-bottom: 1px solid #0c745a;
+}
+
+.content-area {
+    padding: 20px;
+}
+
+.product-section {
+    border: 1px solid #4b1886;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.action-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.add-to-cart-button {
+    background-color: #007bff;
+    color: rgb(159, 203, 13);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-label {
+    font-size: 0.9em;
+    color: #555;
+}
+        background-color: rgb(240, 128, 231);
+       }
+    </style>
+</body>
+</html>
